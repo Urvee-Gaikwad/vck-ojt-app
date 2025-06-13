@@ -10,6 +10,8 @@ import AdmissionsPage from './pages/AdmissionsPage';
 import NotFoundPage from './pages/NotFoundPage';
 import Footer from './component/Footer/Footer';
 import Header from './component/Headers/Header';
+import DeveloperInfoPopup from './component/DeveloperInfo/DeveloperInfoPopup';
+import { useState } from 'react';
 
 function App() {
   const [showPopup, setShowPopup] = useState(true);
@@ -23,8 +25,8 @@ function App() {
         <DeveloperInfoPopup
           show={showPopup}
           onClose={handleClosePopup}
-          studentName="Saniya Mahesh Patil"
-          studentPhotoUrl="/images/saniya.jpg" // Path to their photo
+          studentName="Urvee Umesh Gaikwad"
+          studentPhotoUrl="\images\urvee.jpeg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
