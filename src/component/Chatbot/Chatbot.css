@@ -1,4 +1,4 @@
-/* Main Chat Window */
+Main Chat Window */
 .chat-window {
   background-color: white;
   border-radius: 10px;
@@ -327,9 +327,7 @@
   border-bottom-left-radius: 5px;
 }
 
-
-
-/* Input Area */
+Input Area */
 .chatbot-input {
   display: flex;
   padding: 15px;

@@ -17,7 +17,6 @@ const ChatbotComponent = () => {
   const [isKnowledgeBaseLoading, setIsKnowledgeBaseLoading] = useState(true);
   const isOnline = useOnlineStatus();
   const [isChatOpen, setIsChatOpen] = useState(false);
-  
   // Preparing the knowledge base data
   useEffect(() => {
     const prepareKB = async () => {
@@ -138,7 +137,7 @@ const ChatbotComponent = () => {
       {!isChatOpen && (
         <button className="chatbot-open-button" onClick={toggleChat}>
           <img
-            src="/images/operater.png"
+            src="/images/operator.png"
             alt="Chat Icon"
             style={{ width: "100px", height: "auto" }}
           />
@@ -149,11 +148,11 @@ const ChatbotComponent = () => {
           <>
             <div className="chatbot-header">
               <span role="img" aria-label="Chatbot icon">
-                🤖
+                :robot_face:
               </span>
               <h2>Educational Chatbot</h2>
               <button className="chatbot-close-button" onClick={toggleChat}>
-                ❌
+                :x:
               </button>
             </div>
             {isKnowledgeBaseLoading && (
