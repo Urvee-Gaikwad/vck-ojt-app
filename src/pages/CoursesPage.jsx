@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const CoursesPage = () => {
   return (
     <div className="page-container" style={{overflow:"auto"}}>
-      <h1>Our Academic Programs</h1>
+      <h1 className="animate-fade-in-up">Our Academic Programs</h1>
       <p>
         Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.
       </p>

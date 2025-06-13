@@ -12,8 +12,8 @@ const HomePage = () => {
           className="hero-banner-image"
         />
         <div className="hero-overlay-text">
-          <h1>Welcome to Vivekanand College!</h1>
-          <p>Your journey to excellence starts here.</p>
+          <h1 className="animate-fade-in-up">Welcome to Vivekanand College!</h1>
+          <p className="animate-fade-in-up">Your journey to excellence starts here.</p>
           <Link to="/admissions" className="btn hero-btn">
             Apply Now!
           </Link>{" "}

@@ -2,7 +2,7 @@
 const ContactPage = () => {
   return (
     <div className="page-container" style={{overflow:"auto"}}>
-      <h1>Contact Us</h1>
+      <h1 className="animate-fade-in-up">Contact Us</h1>
       <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
       <h2>General Enquiries</h2>
       <p>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const AdmissionsPage = () => {
   return (
     <div className="page-container" style={{ overflow: "auto" }}>
-      <h1>Admissions at Vivekanand College</h1>
+      <h1 className="animate-fade-in-up">Admissions at Vivekanand College</h1>
       <p>
         Welcome to the Admissions page of Vivekanand College! We are delighted
         you're considering joining our vibrant academic community. Our admission
