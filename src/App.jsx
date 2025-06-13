@@ -12,7 +12,22 @@ import Footer from './component/Footer/Footer';
 import Header from './component/Headers/Header';
 
 function App() {
+  const [showPopup, setShowPopup] = useState(true);
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
   return (
+    <>
+    <div>
+        {/* Your main application content */}
+        <DeveloperInfoPopup
+          show={showPopup}
+          onClose={handleClosePopup}
+          studentName="Saniya Mahesh Patil"
+          studentPhotoUrl="/images/saniya.jpg" // Path to their photo
+          uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
+        />
+      </div>
     <Router>
       <div className="main-layout">
         <Header />
@@ -37,6 +52,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </>
   );
 }
 export default App;
